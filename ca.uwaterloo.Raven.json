@@ -35,8 +35,8 @@
       [
         {
           "type": "archive",
-          "url": "http://raven.uwaterloo.ca/files/v3.7/RavenSource_v3.7.zip",
-          "sha256": "7aabf0295e0e28ffee424ff29cabc14301d95b27ad1fc3971bad634bc9fa08f4"
+          "url": "http://raven.uwaterloo.ca/files/v3.8/RavenSource_v3.8.zip",
+          "sha256": "060e58351f90b200484b0db3abe337f75bd757e471ec47a694a85f1854afda7e"
         },
         {
           "type": "file",
