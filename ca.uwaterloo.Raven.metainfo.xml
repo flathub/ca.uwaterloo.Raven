@@ -19,7 +19,7 @@
     <binary>Raven.exe</binary>
   </provides>
   <releases>
-    <release version="3.7" date="2023-05-16"/>
+    <release version="4.0" date="2025-02-10"/>
   </releases>
   <screenshots>
    <screenshot type="default">

@@ -1,7 +1,7 @@
 {
   "app-id": "ca.uwaterloo.Raven",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "22.08",
+  "runtime-version": "23.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "Raven.exe",
   "finish-args":
@@ -24,6 +24,8 @@
       "buildsystem": "simple",
       "build-commands": [
         "sed -i 's/^CXXFLAGS += -std=c++11/#&/' Makefile",
+        "sed -i 's/^#CXXFLAGS += -Dnetcdf/CXXFLAGS += -Dnetcdf/' Makefile",
+        "sed -i 's/^#LDLIBS   += -L\\/usr\\/local -lnetcdf/LDLIBS   += -L\\/app\\/lib -lnetcdf/' Makefile",
         "make",
         "install -D Raven.exe /app/bin/Raven.exe",
         "install -Dm644 ca.uwaterloo.Raven.svg /app/share/icons/hicolor/scalable/apps/ca.uwaterloo.Raven.svg",
@@ -35,8 +37,8 @@
       [
         {
           "type": "archive",
-          "url": "http://raven.uwaterloo.ca/files/v3.7/RavenSource_v3.7.zip",
-          "sha256": "7aabf0295e0e28ffee424ff29cabc14301d95b27ad1fc3971bad634bc9fa08f4"
+          "url": "https://raven.uwaterloo.ca/files/v4.0/RavenSource_v4.0.zip",
+          "sha256": "3943bc8cc0936b5d9ca5b6d3b9ebd7f57b707ddd2ca4c3faf13be5e49973e546"
         },
         {
           "type": "file",
