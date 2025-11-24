@@ -34,4 +34,14 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <update_contact>jrcraig_AT_uwaterloo.ca</update_contact>
+  <keywords>
+
+    <keyword>hydrology</keyword>
+
+    <keyword>watershed modeling</keyword>
+
+    <keyword>flow simulation</keyword>
+
+  </keywords>
+
 </component>
